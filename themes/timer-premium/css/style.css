@@ -202,7 +202,24 @@ a:hover {
 .navbar.bg-light {
   background-color: transparent !important;
 }
-
+.nav-container{
+  padding-right: 50px;
+}
+.navbar-en a
+{
+    right: 0px;
+    top: 0;
+    width: 50px;
+    background: black;
+    height: 100%;
+    position: absolute;
+    line-height: 79px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    text-transform: uppercase;
+    color:#fff;
+}
 .navbar .nav-item .nav-link {
   color: #efefef !important;
   font-size: 14px;
@@ -341,7 +358,7 @@ a:hover {
 }
 
 .scribe{
-   background: url("../unsplash/irene-kredenets-AWMWcR3hQUg-unsplash.jpg") no-repeat !important;
+   background: url("../unsplash/irene-kredenets-AWMWcR3hQUg-unsplash.jpg") !important;
 }
 
 #call-to-action {
@@ -506,6 +523,7 @@ figure {
 figure .img-wrapper {
   position: relative;
   overflow: hidden;
+  max-height: 223px;
 }
 
 figure img {
